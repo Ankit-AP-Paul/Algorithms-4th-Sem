@@ -1,0 +1,1 @@
+printf("%c %c %d\n", edge_list[i].vertex1+'A', edge_list[i].vertex2+'A', edge_list[i].weight);
