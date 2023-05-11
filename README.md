@@ -30,6 +30,8 @@ This repository focuses on designing an algorithm, its implementation, and analy
   - Maximum number of scalar multiplications for Matrix Chain Multiplication
 - Backtracking Problems
   - n Queen Problem
+  - Graph Coloring Problem
+  - Chromatic number of a Graph 
 
 ## Authors
 
