@@ -40,13 +40,13 @@ void matrixChainOrder(int p[], int n) {
 
 void printOptimalParenthesis(int i, int j) {
     if(i==j) {
-        printf("%c",i+'A');
+        printf("A%d ",i);
     }
     else {
-        printf("(");
+        printf("( ");
         printOptimalParenthesis(i,S[i][j]);
         printOptimalParenthesis(S[i][j]+1,j);
-        printf(")");
+        printf(") ");
     }
 }
 
@@ -61,6 +61,6 @@ int main() {
     }
     matrixChainOrder(p,n-1);
     cout<<"Matrix Order = ";
-    printOptimalParenthesis(0,n-1);
+    printOptimalParenthesis(1,n-1);
     return 0;
 }
