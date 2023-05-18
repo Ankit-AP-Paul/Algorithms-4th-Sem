@@ -4,8 +4,8 @@ using namespace std;
 int ternaryS(int arr[], int low, int high, int key) {
     //arr[] needs to be sorted in ascending order
     if(low<=high) {
-        int mid1=low+(high-low)/2;
-        int mid2=high-(high-low)/2;
+        int mid1=low+(high-low)/3;
+        int mid2=high-(high-low)/3;
         if(arr[mid1]==key) {
             return mid1;
         }
