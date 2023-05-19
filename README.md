@@ -31,7 +31,7 @@ This repository focuses on designing an algorithm, its implementation, and analy
 - Backtracking Problems
   - n Queen Problem
   - Graph Coloring Problem
-  - Chromatic number of a Graph 
+  - Hamiltonian Problem 
 
 ## Authors
 
